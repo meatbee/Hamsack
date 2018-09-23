@@ -4,7 +4,7 @@
 \\download ham
   Click.link "silky smack special"
     wait for download
-		\\This looping part dumps the ham to the disc drive, then squares the amount of ham it will collect next time round - hopefully engulfing the user in a never-ending stream of luncheon meat.
+\\This looping part dumps the ham to the disc drive, then squares the amount of ham it will collect next time round - hopefully engulfing the user in a never-ending stream of luncheon meat.
      Loop while "hamcount"<infinite AND livehamlink=valid
       Check.livehamlink=valid
       	Collect.hamcount^2 of ham
