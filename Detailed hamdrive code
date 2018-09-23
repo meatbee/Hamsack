@@ -1,5 +1,5 @@
 \\Find illegal dark web ham
-  Seek illicitvalueham.exe @ hamlist.exe
+  Seek illicitvalueham.exe @ hamlist.ini
 	callproc update valid darkhamlist
 \\download ham
   Click.link "silky smack special"
